@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: var(--body-color); */
+  background: rgb(241,255,254);
+  background: radial-gradient(circle, rgba(241,255,254,0.9906556372549019) 0%, rgba(244,244,255,1) 46%, rgba(237,252,255,1) 100%);
+  height: 100vh;
+}
+
+.triggerButton {
+  background: white;
+  border: none;
+  width: 200px;
+  border-radius: 4px;
+  height: 40px;
+  margin-bottom: 16px;
+  box-shadow: 0px 4px 12px #00000029;
+  cursor: pointer;
+}
+
+.reportText {
+  font-size: 16px;
+  padding-bottom: 40px;
+}
+
+.downloadButton {
+  margin-top: 34px;
+  background: white;
+  border: none;
+  width: 200px;
+  border-radius: 4px;
+  height: 40px;
+  margin-bottom: 16px;
+  box-shadow: 0px 4px 12px #00000029;
+  cursor: pointer;
+}
+
+.inputClass {
+  padding: 8px;
+  border: 1px solid #b7b7b7;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px #00000029;
+}
+
+.buttonClass {
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  margin-left: 12px;
+  box-shadow: 0px 4px 12px #00000029;
+  background: white;
+  cursor: pointer;
+}
+
+.statusClass {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
